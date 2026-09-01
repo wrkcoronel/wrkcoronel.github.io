@@ -1,16 +1,24 @@
-# React + Vite
+# Pedro Coronel — Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal de **Pedro Coronel**, Data & Automation Engineer com foco em dados, automação, business systems e analytics.
 
-Currently, two official plugins are available:
+O site apresenta experiência com:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Desenvolvimento de dashboards e indicadores em Power BI
+- Automação e tratamento de dados com Python, SQL, VBA e Power Query
+- Integração entre ERP, Google Sheets, SharePoint e Power BI
+- Soluções para acompanhamento de produtividade, desempenho e prazos
+- Identificação de atrasos, desvios e pendências
+- Azure e ferramentas do ecossistema Microsoft
+- Desenvolvimento em .NET e WPF em evolução
 
-## React Compiler
+## Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Power BI
+- Python
+- SQL
+- Azure
+- Power Query
+- VBA
+- SharePoint
+- .NET / WPF
