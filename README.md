@@ -14,6 +14,10 @@ O site apresenta experiência com:
 
 ## Tecnologias
 
+- React
+- Vite
+- JavaScript
+- CSS
 - Power BI
 - Python
 - SQL

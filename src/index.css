@@ -1,3 +1,53 @@
-:root { --paper: #edf3f7; --card: #f9fcfe; --ink: #102532; --muted: #607583; --border: #d2e0e7; --accent: #087eaa; --accent-soft: rgba(8, 126, 170, .14); --art-bg: #dcebf2; --paper-art: #c7dbe4; --art-line: rgba(16, 37, 50, .23); --display: 'Space Grotesk', Arial, sans-serif; --mono: 'DM Mono', Consolas, monospace; color: var(--ink); background: var(--paper); font-family: var(--display); font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
-@media (prefers-color-scheme: dark) { :root { --paper: #0e1b24; --card: #142733; --ink: #e8f4f8; --muted: #9ab1bc; --border: #2a4654; --accent: #45bdd9; --accent-soft: rgba(69, 189, 217, .15); --art-bg: #18303d; --paper-art: #254451; --art-line: rgba(232, 244, 248, .23); } }
-* { box-sizing: border-box; } html { scroll-behavior: smooth; } body { margin: 0; background: var(--paper); } a { transition: color .2s, border-color .2s; } ::selection { color: var(--paper); background: var(--accent); }
+:root {
+  --paper: #edf3f7;
+  --card: #f9fcfe;
+  --ink: #102532;
+  --muted: #607583;
+  --border: #d2e0e7;
+  --accent: #087eaa;
+  --accent-soft: rgba(8, 126, 170, 0.14);
+  --art-bg: #dcebf2;
+  --paper-art: #c7dbe4;
+  --art-line: rgba(16, 37, 50, 0.23);
+  --display: "Space Grotesk", Arial, sans-serif;
+  --mono: "DM Mono", Consolas, monospace;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--display);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0e1b24;
+    --card: #142733;
+    --ink: #e8f4f8;
+    --muted: #9ab1bc;
+    --border: #2a4654;
+    --accent: #45bdd9;
+    --accent-soft: rgba(69, 189, 217, 0.15);
+    --art-bg: #18303d;
+    --paper-art: #254451;
+    --art-line: rgba(232, 244, 248, 0.23);
+  }
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: var(--paper);
+}
+a {
+  transition:
+    color 0.2s,
+    border-color 0.2s;
+}
+::selection {
+  color: var(--paper);
+  background: var(--accent);
+}
