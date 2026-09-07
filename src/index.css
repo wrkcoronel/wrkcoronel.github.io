@@ -1,13 +1,13 @@
 :root {
+  color-scheme: light dark;
   --paper: #edf3f7;
   --card: #f9fcfe;
   --ink: #102532;
-  --muted: #607583;
+  --muted: #586e7b;
   --border: #d2e0e7;
-  --accent: #087eaa;
+  --accent: #087498;
   --accent-soft: rgba(8, 126, 170, 0.14);
   --art-bg: #dcebf2;
-  --paper-art: #c7dbe4;
   --art-line: rgba(16, 37, 50, 0.23);
   --display: "Space Grotesk", Arial, sans-serif;
   --mono: "DM Mono", Consolas, monospace;
@@ -28,7 +28,6 @@
     --accent: #45bdd9;
     --accent-soft: rgba(69, 189, 217, 0.15);
     --art-bg: #18303d;
-    --paper-art: #254451;
     --art-line: rgba(232, 244, 248, 0.23);
   }
 }
@@ -37,10 +36,20 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 28px;
 }
 body {
   margin: 0;
   background: var(--paper);
+}
+section[id],
+main[id] {
+  scroll-margin-top: 28px;
+}
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 6px;
+  border-radius: 2px;
 }
 a {
   transition:
@@ -50,4 +59,14 @@ a {
 ::selection {
   color: var(--paper);
   background: var(--accent);
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+  }
 }
