@@ -11,7 +11,7 @@ Painéis em Power BI, automação de planilhas e sistemas sob medida, sempre a p
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
 
-[Acessar a página](https://wrkcoronel.github.io) · [Projetos em andamento](#projetos-em-andamento) · [Contato](#contato)
+[Acessar a página](https://wrkcoronel.github.io) · [Projetos](#projetos) · [Contato](#contato)
 
 **Pedro Coronel · Analista de Dados e Automação**
 
@@ -19,10 +19,11 @@ Painéis em Power BI, automação de planilhas e sistemas sob medida, sempre a p
 
 ---
 
-## Projetos em andamento
+## Projetos
 
 | Projeto | Tipo | Situação |
 | --- | --- | --- |
+| [Floricultura online](https://ateliedeflores.pages.dev/) | Sistema web | Demonstração |
 | Painel de vendas | Power BI | Em desenvolvimento |
 | Painel de estoque | Power BI | Em desenvolvimento |
 | Painel de pedidos e entregas | Power BI | Em desenvolvimento |
