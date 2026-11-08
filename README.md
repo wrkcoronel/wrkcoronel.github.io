@@ -23,7 +23,7 @@ Painéis em Power BI, automação de planilhas e sistemas sob medida, sempre a p
 
 | Projeto | Tipo | Situação |
 | --- | --- | --- |
-| [Floricultura online](https://ateliedeflores.pages.dev/) | Sistema web | Demonstração |
+| [Floricultura online](https://wrkcoronel.github.io/floricultura/) | Sistema web | Demonstração |
 | Painel de vendas | Power BI | Em desenvolvimento |
 | Painel de estoque | Power BI | Em desenvolvimento |
 | Painel de pedidos e entregas | Power BI | Em desenvolvimento |
